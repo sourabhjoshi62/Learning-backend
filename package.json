@@ -6,12 +6,14 @@
     "javascript",
     "backend"
   ],
-  "type":"module",
+  "type": "module",
   "license": "ISC",
   "author": "",
-  
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.2"
   }
 }
